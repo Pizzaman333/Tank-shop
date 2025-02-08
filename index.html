@@ -16,6 +16,22 @@
   <body>
     <main>
       <ul class="tanks"></ul>
+      <div class="backdrop is-hidden">
+        <div class="modal">
+          <div class="modal-cross"></div>
+          <img class="modal-image" src="" alt="Tank">
+          <h2 class="modal-title"></h2>
+          <p class="modal-decribtion"></p>
+          <p class="modal-price"></p>
+          <form action="" class="modal-form">
+            <label class="modal-text" for="#modal-input-adress">Адреса:</label>
+            <input type="text" class="modal-input" id="modal-input-adress">
+            <label class="modal-text" for="#modal-input-phone">Телефон:</label>
+            <input type="tel" class="modal-input" id="modal-input-phone">
+            <button class="modal-button" type="submit">Замовити!</button>
+          </form>
+        </div>
+      </div>
     </main>
     <script src="./index.js" type="module"></script>
   </body>
