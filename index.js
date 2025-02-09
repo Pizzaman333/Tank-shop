@@ -271,6 +271,7 @@ const tanksData = [
   },
 ];
 
+
 const tanksElements = tanksData
   .map(
     (tank) => `<li class="tanks-item">
