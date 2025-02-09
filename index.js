@@ -1,4 +1,4 @@
-const tanksData = [
+const tanksData =  [
   {
     title: "T-72",
     price: 2000000,
