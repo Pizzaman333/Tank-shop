@@ -53,8 +53,8 @@ body {
 
 .modal {
     position: relative;
-    width: 900px;
-    height: 600px;
+    width: 1000px;
+    height: 800px;
     background-color: white;
     border-radius: 30px;
     display: flex;
@@ -70,13 +70,26 @@ body {
     right: 20px;
     width: 30px;
     height: 30px;
-    background-color: red;
     cursor: pointer;
 }
 
+.modal-line {
+    position: absolute;
+    top: 14px;
+    right: -3px;
+    width: 35px;
+    height: 2.5px;
+    background-color: black;
+    transform: rotate(45deg);
+}
+
+.modal-line:last-child {
+    transform: rotate(-45deg);
+}
+
 .modal-image {
-    width: 600px;
-    height: 300px;
+    width: 900px;
+    height: 450px;
     object-fit: cover;
 }
 
@@ -85,17 +98,9 @@ body {
     text-align: center;
 }
 
-.modal-button {
-    width: 120px;
-    height: 30px;
-    color: white;
-    border-radius: 10px;
-    background-color:slategrey;
-    cursor: pointer;
-}
-
-.modal-button:hover {
-    background-color: black;
+.modal-info {
+    display: flex;
+    gap: 50px;
 }
 
 .is-hidden {
