@@ -2,7 +2,7 @@ const tanksData = [
   {
     title: "T-72",
     price: 2000000,
-    photo: "./images/T72.webP",
+    photo: "./images/T72.webp",
     nation: "Soviet Union",
     era: "Cold War",
     description:
@@ -20,7 +20,7 @@ const tanksData = [
   {
     title: "Leopard 2",
     price: 12000000,
-    photo: "./images/Leopard2.webP",
+    photo: "./images/Leopard2.webp",
     nation: "Germany",
     era: "Modern war",
     description:
@@ -29,7 +29,7 @@ const tanksData = [
   {
     title: "T-34",
     price: 500000,
-    photo: "./images/T34.webP",
+    photo: "./images/T34.webp",
     nation: "Soviet Union",
     era: "Second World War",
     description:
@@ -38,7 +38,7 @@ const tanksData = [
   {
     title: "Mark V",
     price: 500000,
-    photo: "./images/MarkV.webP",
+    photo: "./images/MarkV.webp",
     nation: "UK",
     era: "First World War",
     description:
@@ -47,7 +47,7 @@ const tanksData = [
   {
     title: "M60 Patton",
     price: 500000,
-    photo: "./images/M60Patton.webP",
+    photo: "./images/M60Patton.webp",
     nation: "USA",
     era: "Cold War",
     description:
@@ -65,7 +65,7 @@ const tanksData = [
   {
     title: "Renault FT",
     price: 300000,
-    photo: "./images/RenaultFT.webP",
+    photo: "./images/RenaultFT.webp",
     nation: "France",
     era: "Interwar period",
     description:
@@ -74,7 +74,7 @@ const tanksData = [
   {
     title: "Tiger 131",
     price: 4500000,
-    photo: "./images/Tiger1.webP",
+    photo: "./images/Tiger1.webp",
     nation: "German Reich",
     era: "Second World War",
     description:
@@ -83,7 +83,7 @@ const tanksData = [
   {
     title: "Merkava",
     price: 4500000,
-    photo: "./images/Merkava.webP",
+    photo: "./images/Merkava.webp",
     nation: "Israel",
     era: "Modern war",
     description:
@@ -92,7 +92,7 @@ const tanksData = [
   {
     title: "T-28",
     price: 200000,
-    photo: "./images/T28.webP",
+    photo: "./images/T28.webp",
     nation: "Soviet Union",
     era: "Interwar period",
     description:
@@ -101,7 +101,7 @@ const tanksData = [
   {
     title: "Vickers Medium Mark II",
     price: 150000,
-    photo: "./images/VickersMediumII.webP",
+    photo: "./images/VickersMediumII.webp",
     nation: "UK",
     era: "Interwar period",
     description:
@@ -110,7 +110,7 @@ const tanksData = [
   {
     title: "M4 Sherman",
     price: 400000,
-    photo: "./images/M4Sherman.webP",
+    photo: "./images/M4Sherman.webp",
     nation: "USA",
     era: "Second World War",
     description:
@@ -119,7 +119,7 @@ const tanksData = [
   {
     title: "T-90",
     price: 3000000,
-    photo: "./images/T90.webP",
+    photo: "./images/T90.webp",
     nation: "Russia",
     era: "Modern war",
     description:
@@ -128,7 +128,7 @@ const tanksData = [
   {
     title: "Challenger 2",
     price: 11000000,
-    photo: "./images/Challenger2.webP",
+    photo: "./images/Challenger2.webp",
     nation: "UK",
     era: "Modern war",
     description:
@@ -146,7 +146,7 @@ const tanksData = [
   {
     title: "Chieftain",
     price: 750000,
-    photo: "./images/Chieftain.webP",
+    photo: "./images/Chieftain.webp",
     nation: "UK",
     era: "Cold War",
     description:
@@ -155,7 +155,7 @@ const tanksData = [
   {
     title: "Panther",
     price: 6000000,
-    photo: "./images/Panther.webP",
+    photo: "./images/Panther.webp",
     nation: "German Reich",
     era: "Second World War",
     description:
@@ -164,7 +164,7 @@ const tanksData = [
   {
     title: "AMX-56 Leclerc",
     price: 8500000,
-    photo: "./images/Leclerc.webP",
+    photo: "./images/Leclerc.webp",
     nation: "France",
     era: "Modern war",
     description:
@@ -173,7 +173,7 @@ const tanksData = [
   {
     title: "T-55",
     price: 250000,
-    photo: "./images/T55.webP",
+    photo: "./images/T55.webp",
     nation: "Soviet Union",
     era: "Cold War",
     description:
@@ -182,7 +182,7 @@ const tanksData = [
   {
     title: "M1 Abrams",
     price: 6000000,
-    photo: "./images/M1Abrams.webP",
+    photo: "./images/M1Abrams.webp",
     nation: "USA",
     era: "Modern war",
     description:
@@ -191,7 +191,7 @@ const tanksData = [
   {
     title: "Stridsvagn 103",
     price: 3500000,
-    photo: "./images/Strv103.webP",
+    photo: "./images/Strv103.webp",
     nation: "Sweden",
     era: "Cold War",
     description:
@@ -218,7 +218,7 @@ const tanksData = [
   {
     title: "Type 99",
     price: 7000000,
-    photo: "./images/Type99.webP",
+    photo: "./images/Type99.webp",
     nation: "China",
     era: "Modern war",
     description:
@@ -227,7 +227,7 @@ const tanksData = [
   {
     title: "Char B1",
     price: 300000,
-    photo: "./images/CharB1.webP",
+    photo: "./images/CharB1.webp",
     nation: "France",
     era: "Second World War",
     description:
@@ -236,7 +236,7 @@ const tanksData = [
   {
     title: "IS-3",
     price: 500000,
-    photo: "./images/IS3.webP",
+    photo: "./images/IS3.webp",
     nation: "Soviet Union",
     era: "Second World War",
     description:
@@ -245,7 +245,7 @@ const tanksData = [
   {
     title: "Centurion",
     price: 900000,
-    photo: "./images/Centurion.webP",
+    photo: "./images/Centurion.webp",
     nation: "UK",
     era: "Cold War",
     description:
@@ -254,7 +254,7 @@ const tanksData = [
   {
     title: "BT-7",
     price: 200000,
-    photo: "./images/BT7.webP",
+    photo: "./images/BT7.webp",
     nation: "Soviet Union",
     era: "Second World War",
     description:
@@ -263,7 +263,7 @@ const tanksData = [
   {
     title: "Maus",
     price: 10000000,
-    photo: "./images/Maus.webP",
+    photo: "./images/Maus.webp",
     nation: "German Reich",
     era: "Second World War",
     description:
