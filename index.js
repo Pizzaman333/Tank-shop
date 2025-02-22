@@ -1,4 +1,4 @@
-const tanksData =  [
+const tanksData = [
   {
     title: "T-72",
     price: 2000000,
@@ -271,12 +271,11 @@ const tanksData =  [
   },
 ];
 
-
 const tanksElements = tanksData
   .map(
     (tank) => `<li class="tanks-item">
                 <h2 class="tanks-title">${tank.title}</h2>
-                <img class="tanks-image" src="${tank.photo}" alt="${tank.title}" data-path="${tank.photo}">
+                <img class="tanks-image" loading="lazy" src="./images/loading.jpg" alt="${tank.title}" data-path="${tank.photo}">
                 <p class="tanks-text" data-describtion="${tank.description}" data-nation="${tank.nation}" data-era="${tank.era}">Price: $${tank.price}</p>
             </li>`
   )
@@ -292,11 +291,18 @@ document.querySelector(".tanks").addEventListener("click", (event) => {
   const item = event.target.closest(".tanks-item");
   const imageTag = item.firstElementChild.nextElementSibling;
   document.querySelector(".modal-image").src = imageTag.dataset.path;
-  document.querySelector(".modal-title").textContent = item.firstElementChild.textContent;
-  document.querySelector(".modal-decribtion").textContent = item.lastElementChild.dataset.describtion;
-  document.querySelector(".modal-price").textContent = item.lastElementChild.textContent;
-  document.querySelector(".modal-nation").textContent = `Nation: ${item.lastElementChild.dataset.nation}`;
-  document.querySelector(".modal-era").textContent = `Era: ${item.lastElementChild.dataset.era}`;
+  document.querySelector(".modal-title").textContent =
+    item.firstElementChild.textContent;
+  document.querySelector(".modal-decribtion").textContent =
+    item.lastElementChild.dataset.describtion;
+  document.querySelector(".modal-price").textContent =
+    item.lastElementChild.textContent;
+  document.querySelector(
+    ".modal-nation"
+  ).textContent = `Nation: ${item.lastElementChild.dataset.nation}`;
+  document.querySelector(
+    ".modal-era"
+  ).textContent = `Era: ${item.lastElementChild.dataset.era}`;
   console.log();
 });
 
@@ -305,3 +311,19 @@ document
   .addEventListener("click", (event) =>
     document.querySelector(".backdrop").classList.add("is-hidden")
   );
+
+
+  const tankImages = document.querySelectorAll(".tanks-image");
+  const showImages = (entries, observer) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.src = entry.target.dataset.path;
+        observer.unobserve(entry.target); 
+      }
+    });
+  };
+  
+  const observer = new IntersectionObserver(showImages);
+  
+  tankImages.forEach((image) => observer.observe(image));
+  
