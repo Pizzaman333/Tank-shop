@@ -273,7 +273,7 @@ const tanksData = [
 
 const tanksElements = tanksData
   .map(
-    (tank) => `<li class="tanks-item">
+    (tank) => `<li class="tanks-item" data-aos="fade-up">
                 <h2 class="tanks-title">${tank.title}</h2>
                 <img class="tanks-image" loading="lazy" src="./images/loading.jpg" alt="${tank.title}" data-path="${tank.photo}">
                 <p class="tanks-text" data-describtion="${tank.description}" data-nation="${tank.nation}" data-era="${tank.era}">Price: $${tank.price}</p>
