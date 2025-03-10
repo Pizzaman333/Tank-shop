@@ -327,3 +327,4 @@ document
   
   tankImages.forEach((image) => observer.observe(image));
   
+  console.log("s");
